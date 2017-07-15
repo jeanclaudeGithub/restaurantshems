@@ -31,4 +31,12 @@ $app->get('/nousJoindre', function() use($app) {
   $app['monolog']->addDebug('logging output.');
   return $app['twig']->render('nousJoindre.twig');
 });
+$app->get('/menu', function() use($app) {
+  $app['monolog']->addDebug('logging output.');
+  return $app['twig']->render('menu.twig');
+});
+$app->get('/commentaire', function() use($app) {
+  $app['monolog']->addDebug('logging output.');
+  return $app['twig']->render('commentaire.twig');
+});
 $app->run();

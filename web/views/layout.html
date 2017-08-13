@@ -5,10 +5,16 @@
 </head>
 
 <body>
-  {% include 'nav.html' %}
+  <header>
+    {% include 'nav.html' %}
+  </header>
 
-  {% block content %}{% endblock %}
+  <div>
+    {% block content %}{% endblock %}
+  </div>
 
-  {% include 'footer.html' %}
+  <footer>
+     {% include 'footer.html' %}
+  </footer>
 </body>
 </html>

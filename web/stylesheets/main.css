@@ -213,8 +213,8 @@ a {
 }
 /*Formulaire nous joindre*/
 section#contact {
-    background-color: #222222;
-    background-image: url('../images/imageRest2.jpg');
+    background-color: #FA7608;
+    /*background-image: url('../images/imageRest2.jpg');*/
     background-position: center;
     background-repeat: no-repeat;
 }

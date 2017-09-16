@@ -6,26 +6,37 @@
 <h3>Questionnaire sur l'appréciation</h3>
 <form>
 <div class="input-item">
+	<label class="label" for="pdate">Date de visite*</label>
 	<div class="form_third">
-		<label class="label" for="pdate">Date de visite*</label>
 		<input class="input js-required" type="date" name="date" id="pdate" value="">
 	</div>
 	<hr/>
-	<div>
-	<label class="label" for="nom">Nom *</label>
-	<input class="input js-required" type="text" name="nom" id="nom">
-	<label class="label" for="prenom">Prénom *</label>
-	<input class="input js-required" type="text" name="prenom" id="prenom">
-	<label class="label" for="tel">Téléphone *</label>
-	<input class="input js-required" type="text" name="tel" id="tel">
-	<label class="label" for="mail">Courriel *</label>
-	<input class="input js-required" type="text" name="mail" id="mail">
+</div>
+<fieldset>
+	<div class="grid -margin">
+		<div class="half -margin">
+			<div class="input-item">
+				<label class="label" for="firstname">Prénom*</label>
+				<input class="input js-required" type="text" id="firstname" name="firstname">
+			</div>
+			<div class="input-item">
+				<label class="label" for="lastname">Nom*</label>
+				<input class="input js-required" type="text" id="lastname" name="lastname">
+			</div>
+		</div>
+		<div class="half -margin">
+			<div class="input-item">
+				<label class="label" for="phone">Téléphone*</label>
+				<input class="input js-required" type="text" id="phone" name="telephone">
+			</div>
+			<div class="input-item">
+				<label class="label" for="email">Courriel*</label>
+				<input class="input js-required" type="email" id="email" name="email">
+			</div>
+		</div>
 	</div>
+</fieldset>
 
-</div>
-                    
-</form>
-
-</div>
+<hr class="hr -big-margin -form">
 
 {% endblock %}

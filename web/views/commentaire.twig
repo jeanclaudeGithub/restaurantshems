@@ -36,7 +36,80 @@
 		</div>
 	</div>
 </fieldset>
-
 <hr class="hr -big-margin -form">
+<fieldset>
+	<div class="grid -margin">
+		<div class="half -margin">
+			<div class="grid">
+				<div class="comments_category"></div>
+				<div class="comments_rating">
+					<div class="grid">
+						<div class="comments_radio">
+							<div class="input-item">
+								<p class="comments_label">Innaceptable</p>
+							</div>
+						</div>
+						<div class="comments_radio">
+							<div class="input-item">
+								<p class="comments_label">Passable</p>
+							</div>
+						</div>
+						<div class="comments_radio">
+							<div class="input-item">
+								<p class="comments_label">Bon </p>
+							</div>
+						</div>
+						<div class="comments_radio">
+							<div class="input-item">
+								<p class="comments_label">Excellent</p>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="comments_category">
+					<div class="input-item">
+						<p class="label">Qualité des aliments*</p>
+					</div>
+				</div>
+				<div class="comments_rating">
+					<div class="grid">
+						<div class="comments_radio">
+							<div class="input-item">
+								<input class="radio js-required" type="radio" name="quality" id="quality1" value="Innaceptable">
+								<label class="radio-label -empty" for="quality1"></label>
+							</div>
+						</div>
+						<div class="comments_radio">
+							<div class="input-item">
+								<input class="radio" type="radio" name="quality" id="quality2" value="Passable">
+								<label class="radio-label -empty" for="quality2"></label>
+							</div>
+						</div>
+						<div class="comments_radio">
+							<div class="input-item">
+								<input class="radio" type="radio" name="quality" id="quality3" value="Bon">
+								<label class="radio-label -empty" for="quality3"></label>
+							</div>
+						</div>
+						<div class="comments_radio">
+							<div class="input-item">
+								<input class="radio" type="radio" name="quality" id="quality4" value="Excellent">
+								<label class="radio-label -empty" for="quality4"></label>
+							</div>
+						</div>
+					</div>
+				</div>
+	<hr class="hr -small-margin -form">
+					<div class="input-item">
+						<label class="label" for="comments">Commentaires</label>
+	            		<textarea class="textarea" id="comments" name="comments"></textarea>
+					</div>
+				</div>
+
+			</div>
+</fieldset>
+<div class="form_button">
+	<button class="button -margin" type="submit">Envoyer</button>
+</div>
 
 {% endblock %}

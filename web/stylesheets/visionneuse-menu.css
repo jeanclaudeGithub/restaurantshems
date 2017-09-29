@@ -31,3 +31,7 @@ body { padding-top: 50px; }
 	.carousel-caption p,
 	#myCarousel .list-group {display:none;} 
 }
+
+.featurette-heading {
+	margin-left: 45px;
+}

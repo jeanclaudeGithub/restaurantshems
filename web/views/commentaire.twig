@@ -6,22 +6,108 @@
 <h3>Questionnaire sur l'appréciation</h3>
 <form>
 <div class="input-item">
-						<label class="label" for="date">Date de visite*</label>
-						<div class="form_thirds">
-							<div class="form_third">
-								<input class="input js-required" type="number" name="year" id="year" value="" maxlength="4" placeholder="Ann&eacute;e">
+	<label class="label" for="pdate">Date de visite*</label>
+	<input class="input js-required" type="date" name="date" id="pdate" value="">
+	<hr/>
+</div>
+<fieldset>
+	<div class="grid -margin">
+		<div class="half -margin">
+			<div class="input-item">
+				<label class="label" for="firstname">Prénom*</label>
+				<input class="input js-required" type="text" id="firstname" name="firstname">
+			</div>
+			<div class="input-item">
+				<label class="label" for="lastname">Nom*</label>
+				<input class="input js-required" type="text" id="lastname" name="lastname">
+			</div>
+		</div>
+		<div class="half -margin">
+			<div class="input-item">
+				<label class="label" for="phone">Téléphone*</label>
+				<input class="input js-required" type="text" id="phone" name="telephone">
+			</div>
+			<div class="input-item">
+				<label class="label" for="email">Courriel*</label>
+				<input class="input js-required" type="email" id="email" name="email">
+			</div>
+		</div>
+	</div>
+</fieldset>
+<hr class="hr -big-margin -form">
+<fieldset>
+	<div class="grid -margin">
+		<div class="half -margin">
+			<div class="grid">
+				<div class="comments_category"></div>
+				<div class="comments_rating">
+					<div class="grid">
+						<div class="comments_radio">
+							<div class="input-item">
+								<span class="comments_label">Innaceptable</span>
 							</div>
-							<div class="form_third">
-								<input class="input js-required" type="number" name="month" id="month" value="" maxlength="2" placeholder="Mois">
+						</div>
+						<div class="comments_radio">
+							<div class="input-item">
+								<span class="comments_label">Passable</span>
 							</div>
-							<div class="form_third">
-								<input class="input js-required" type="number" name="day" id="day" value="" maxlength="2" placeholder="Jour">
+						</div>
+						<div class="comments_radio">
+							<div class="input-item">
+								<span class="comments_label">Bon </span>
+							</div>
+						</div>
+						<div class="comments_radio">
+							<div class="input-item">
+								<span class="comments_label">Excellent</span>
 							</div>
 						</div>
 					</div>
-                    
-</form>
+				</div>
+				<div class="comments_category">
+					<div class="input-item">
+						<p class="label">Qualité des aliments*</p>
+					</div>
+				</div>
+				<div class="comments_rating">
+					<div class="grid">
+						<div class="comments_radio">
+							<div class="input-item">
+								<input class="radio js-required" type="radio" name="quality" id="quality1" value="Innaceptable">
+								<label class="radio-label -empty" for="quality1"></label>
+							</div>
+						</div>
+						<div class="comments_radio">
+							<div class="input-item">
+								<input class="radio" type="radio" name="quality" id="quality2" value="Passable">
+								<label class="radio-label -empty" for="quality2"></label>
+							</div>
+						</div>
+						<div class="comments_radio">
+							<div class="input-item">
+								<input class="radio" type="radio" name="quality" id="quality3" value="Bon">
+								<label class="radio-label -empty" for="quality3"></label>
+							</div>
+						</div>
+						<div class="comments_radio">
+							<div class="input-item">
+								<input class="radio" type="radio" name="quality" id="quality4" value="Excellent">
+								<label class="radio-label -empty" for="quality4"></label>
+							</div>
+						</div>
+					</div>
+				</div>
+	<hr class="hr -small-margin -form">
+					<div class="input-item">
+						<label class="label" for="comments">Commentaires</label>
+	            		<textarea class="textarea" id="comments" name="comments"></textarea>
+					</div>
+				</div>
 
+			</div>
+</fieldset>
+<div class="form_button">
+	<button class="button -margin" type="submit">Envoyer</button>
 </div>
 
 {% endblock %}

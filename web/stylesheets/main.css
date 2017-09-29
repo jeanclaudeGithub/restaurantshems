@@ -213,10 +213,10 @@ a {
 }
 /*Formulaire nous joindre*/
 section#contact {
-    background-color: #222222;
-    background-image: url('http://artdnaswitchbd.com/componants/images/map-image.png');
+    background-color: #8B4513;
+    /*background-image: url('../images/imageRest2.jpg');
     background-position: center;
-    background-repeat: no-repeat;
+    background-repeat: no-repeat;*/
 }
 section {
     padding: 30px 0PX;
@@ -303,5 +303,9 @@ section#contact .text-danger {
     width: 40px;
     height: 20px;
     background: #ffffff;
+}
+/*Section page commentaire*/
+.label{
+    color: black;
 }
 

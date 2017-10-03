@@ -1,7 +1,7 @@
 {% extends "layout.html" %}
 
 {% block content %}
-<div>
+<section id="contact" >
 <h1  class="display-1">Vos commentaires</h1>
 <h3>Questionnaire sur l'appréciation</h3>
 <form>
@@ -45,20 +45,8 @@
 						<div class="comments_radio">
 							<div class="input-item">
 								<span class="comments_label">Innaceptable</span>
-							</div>
-						</div>
-						<div class="comments_radio">
-							<div class="input-item">
 								<span class="comments_label">Passable</span>
-							</div>
-						</div>
-						<div class="comments_radio">
-							<div class="input-item">
 								<span class="comments_label">Bon </span>
-							</div>
-						</div>
-						<div class="comments_radio">
-							<div class="input-item">
 								<span class="comments_label">Excellent</span>
 							</div>
 						</div>
@@ -75,22 +63,10 @@
 							<div class="input-item">
 								<input class="radio js-required" type="radio" name="quality" id="quality1" value="Innaceptable">
 								<label class="radio-label -empty" for="quality1"></label>
-							</div>
-						</div>
-						<div class="comments_radio">
-							<div class="input-item">
 								<input class="radio" type="radio" name="quality" id="quality2" value="Passable">
 								<label class="radio-label -empty" for="quality2"></label>
-							</div>
-						</div>
-						<div class="comments_radio">
-							<div class="input-item">
 								<input class="radio" type="radio" name="quality" id="quality3" value="Bon">
 								<label class="radio-label -empty" for="quality3"></label>
-							</div>
-						</div>
-						<div class="comments_radio">
-							<div class="input-item">
 								<input class="radio" type="radio" name="quality" id="quality4" value="Excellent">
 								<label class="radio-label -empty" for="quality4"></label>
 							</div>
@@ -108,6 +84,6 @@
 </fieldset>
 <div class="form_button">
 	<button class="button -margin" type="submit">Envoyer</button>
-</div>
+</section>
 
 {% endblock %}

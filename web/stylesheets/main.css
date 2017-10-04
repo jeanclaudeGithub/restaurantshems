@@ -313,3 +313,7 @@ section#contact .text-danger {
     color: black;
 }
 
+/*Page menu*/
+.featurette-heading{
+    margin-left : 40px;
+}

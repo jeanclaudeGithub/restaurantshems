@@ -304,6 +304,10 @@ section#contact .text-danger {
     height: 20px;
     background: #ffffff;
 }
+.btn-submit{
+    width: 100%;
+    background-color: orange;
+}
 /*Section page commentaire*/
 .label{
     color: black;

@@ -179,9 +179,9 @@ a {
         line-height: 20px;
         margin-bottom: 20px;
     }
-    .control-round .carousel-control{
+   /* .control-round .carousel-control{
         display: none;
-    }
+    }*/
 
 }
 @media  (max-width: 480px) {
@@ -206,9 +206,9 @@ a {
         text-align: center;
         padding: 10px 15px;
     }
-    .indicators-line > .carousel-indicators{
+    /*.indicators-line > .carousel-indicators{
         display: none;
-    }
+    }*/
 
 }
 /*Formulaire nous joindre*/

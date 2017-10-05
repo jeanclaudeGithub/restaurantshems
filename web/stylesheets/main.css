@@ -305,8 +305,12 @@ section#contact .text-danger {
     background: #ffffff;
 }
 .btn-submit{
-    width: 100%;
+    width: 50%;
+    text-align: center;
     background-color: orange;
+}
+h1{
+    color:#fff;
 }
 /*Section page commentaire*/
 .label{

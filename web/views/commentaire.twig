@@ -4,32 +4,32 @@
 <section id="contact" >
 <h1  class="display-1">Vos commentaires</h1>
 <h3>Questionnaire sur l'appréciation</h3>
-<form>
-<div class="input-item">
-	<label class="label" for="pdate">Date de visite*</label>
-	<input class="input js-required" type="date" name="date" id="pdate" value="">
+<form id="contactForm">
+<div class="form-group">
+	<label class="form-control" for="pdate">Date de visite*</label>
+	<input class="form-control" type="date" name="date" id="pdate" value="">
 	<hr/>
 </div>
 <fieldset>
-	<div class="grid -margin">
+	<div class="form-group">
 		<div class="half -margin">
 			<div class="input-item">
-				<label class="label" for="firstname">Prénom*</label>
-				<input class="input js-required" type="text" id="firstname" name="firstname">
+				<label class="form-control" for="firstname">Prénom*</label>
+				<input class="form-control" type="text" id="firstname" name="firstname">
 			</div>
-			<div class="input-item">
-				<label class="label" for="lastname">Nom*</label>
-				<input class="input js-required" type="text" id="lastname" name="lastname">
+			<div class="form-group">
+				<label class="form-control" for="lastname">Nom*</label>
+				<input class="form-control" type="text" id="lastname" name="lastname">
 			</div>
 		</div>
 		<div class="half -margin">
-			<div class="input-item">
-				<label class="label" for="phone">Téléphone*</label>
-				<input class="input js-required" type="text" id="phone" name="telephone">
+			<div class="form-group">
+				<label class="form-control" for="phone">Téléphone*</label>
+				<input class="form-control" type="text" id="phone" name="telephone">
 			</div>
-			<div class="input-item">
-				<label class="label" for="email">Courriel*</label>
-				<input class="input js-required" type="email" id="email" name="email">
+			<div class="form-group">
+				<label class="form-control" for="email">Courriel*</label>
+				<input class="form-control" type="email" id="email" name="email">
 			</div>
 		</div>
 	</div>
@@ -43,7 +43,7 @@
 				<div class="comments_rating">
 					<div class="grid">
 						<div class="comments_radio">
-							<div class="input-item">
+							<div class="form-group">
 								<span class="comments_label">Innaceptable</span>
 								<span class="comments_label">Passable</span>
 								<span class="comments_label">Bon </span>
@@ -53,15 +53,15 @@
 					</div>
 				</div>
 				<div class="comments_category">
-					<div class="input-item">
+					<div class="form-group">
 						<p class="label">Qualité des aliments*</p>
 					</div>
 				</div>
 				<div class="comments_rating">
 					<div class="grid">
 						<div class="comments_radio">
-							<div class="input-item">
-								<input class="radio js-required" type="radio" name="quality" id="quality1" value="Innaceptable">
+							<div class="form-group">
+								<input class="radio" type="radio" name="quality" id="quality1" value="Innaceptable">
 								<label class="radio-label -empty" for="quality1"></label>
 								<input class="radio" type="radio" name="quality" id="quality2" value="Passable">
 								<label class="radio-label -empty" for="quality2"></label>
@@ -74,12 +74,11 @@
 					</div>
 				</div>
 	<hr class="hr -small-margin -form">
-					<div class="input-item">
+					<div class="form-group">
 						<label class="label" for="comments">Commentaires</label>
-	            		<textarea class="textarea" id="comments" name="comments"></textarea>
+	            		<textarea class="form-control" id="comments" name="comments"></textarea>
 					</div>
 				</div>
-
 			</div>
 </fieldset>
 <div class="form_button">

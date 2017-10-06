@@ -28,8 +28,8 @@
     width: 100% !important;
 }
 
-/********************
-*****Slide effect
+/**********************
+***** Slide effect ****
 **********************/
 
 .fade {
@@ -62,11 +62,6 @@
     -o-transition: opacity ease-in-out 1s;
     transition: opacity ease-in-out 1s;
 }
-
-
-
-
-
 
 /*---------- LEFT/RIGHT ROUND CONTROL ----------*/
 .control-round .carousel-control {
@@ -109,10 +104,6 @@
 .control-round .carousel-control.right>span:nth-child(1){
     right: 45%;
 }
-
-
-
-
 
 /*---------- INDICATORS CONTROL ----------*/
 .indicators-line > .carousel-indicators{
@@ -183,8 +174,6 @@
     -o-transition: background-color 0.3s ease;
     transition: background-color 0.3s ease;
 }
-
-
 
 /*---------- SLIDE CAPTION ----------*/
 .slide_style_left {
@@ -280,11 +269,6 @@
     -webkit-transition: background 0.5s ease-in-out, color 0.5s ease-in-out;
     transition: background 0.5s ease-in-out, color 0.5s ease-in-out;
 }
-
-
-
-
-
 
 /*------------------------------------------------------*/
 /* RESPONSIVE

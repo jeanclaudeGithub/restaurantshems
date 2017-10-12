@@ -32,13 +32,13 @@ $(document).ready(function(){
         return false;
     });
     var emailToVal="n.oularabi@gmail.com";
-    var subjectVal="contact de "+nomVal;
-    $.post("/play/jqueryajaxform/sendEmail.php",
-    { emailTo: emailToVal, emailFrom: emailVal, subject: subjectVal, message: messageVal },
+    var subjectVal="contact de " + nomVal;
+    $.post("/PHP/contact_form.php",
+    { emailTo: emailToVal, name:nomVal,emailFrom: emailVal, subject: subjectVal, message: messageVal },
         function(data){
             $("#sendEmail").slideUp("normal", function() {
             
-                $("#sendEmail").before('<h1>Success</h1><p>Your email was sent.</p>');
+                $("#sendEmail").before('<h1 style="color: green;">Success</h1><p>Your email was sent.</p>');
             });
         }
     ); 

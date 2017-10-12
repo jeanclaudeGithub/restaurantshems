@@ -317,7 +317,7 @@ h1{
     color: black;
 }
 
-/*Page menu*/
+/*Page notre menu*/
 #pageMenu{
     background-color:#8B4513;
 }
@@ -325,6 +325,12 @@ h1{
 #titreTypeMenu{
     color: white;
 }
+
+/*menu navigation*/
+.nav li{
+  width: 200px;
+}
+
 
 
 

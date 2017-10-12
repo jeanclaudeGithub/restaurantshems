@@ -317,7 +317,21 @@ h1{
     color: black;
 }
 
-/*Page menu*/
-.featurette-heading{
-    margin-left : 40px;
+/*Page notre menu*/
+#pageMenu{
+    background-color:#8B4513;
 }
+
+#titreTypeMenu{
+    color: white;
+}
+
+/*menu navigation*/
+.nav li{
+  width: 200px;
+}
+
+
+
+
+

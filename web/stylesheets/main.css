@@ -318,6 +318,14 @@ h1{
 }
 
 /*Page menu*/
-.featurette-heading{
-    margin-left : 40px;
+#pageMenu{
+    background-color:#8B4513;
 }
+
+#titreTypeMenu{
+    color: white;
+}
+
+
+
+

@@ -1,5 +1,5 @@
 $(document).ready(function(){
-    $("#submit").click(function(){
+    $("#sentMessage").submit(function(){
         $(".error").hide();
         var hasError = false;
         var emailReg = /^([w-.]+@([w-]+.)+[w-]{2,4})?$/;

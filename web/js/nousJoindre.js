@@ -9,7 +9,7 @@ $(document).ready(function(){
         };
         $.ajax({
             type: "POST",
-            url: "contact_form.php",
+            url: "./PHP/contact_form.php",
             data: data,
             success: function(){
                 $('.success').fadeIn(1000);

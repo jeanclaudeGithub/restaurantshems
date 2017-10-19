@@ -2,7 +2,7 @@
 $name = $_POST['name'];
 $emailFrom = $_POST['emailFrom'];
 $message = $_POST['message'];
-$subject = $_POST['subject'];
+$tel = $_POST['phone'];
 $emailFrom = filter_var($email, FILTER_SANITIZE_EMAIL); // Sanitizing E-mail.
 // After sanitization Validation is performed
 if (filter_var($emailFrom, FILTER_VALIDATE_EMAIL)) {
@@ -25,7 +25,7 @@ if (filter_var($emailFrom, FILTER_VALIDATE_EMAIL)) {
     // Message lines should not exceed 70 characters (PHP rule), so wrap it.
     $sendmessage = wordwrap($sendmessage, 70);
     // Send mail by PHP Mail Function.
-    mail("receiver_email_id@abc.com", $subject, $sendmessage, $headers);
+    mail("n.oularabi@gmail.com", $subject, $sendmessage, $headers);
     echo "Your Query has been received, We will contact you soon.";
 } else {
     echo "<span>* invalid email *</span>";

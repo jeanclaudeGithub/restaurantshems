@@ -1,8 +1,9 @@
 <?php // Fetching Values from URL.
 $name = $_POST['name'];
-$emailFrom = $_POST['emailFrom'];
+$email = $_POST['email'];
 $message = $_POST['message'];
 $tel = $_POST['phone'];
+$subject="Bonjour";
 $emailFrom = filter_var($email, FILTER_SANITIZE_EMAIL); // Sanitizing E-mail.
 // After sanitization Validation is performed
 if (filter_var($emailFrom, FILTER_VALIDATE_EMAIL)) {
@@ -15,12 +16,12 @@ if (filter_var($emailFrom, FILTER_VALIDATE_EMAIL)) {
     $template = '<div style="padding:50px; color:white;">Hello ' . $name . ',<br/>'
     .'<br/>Thank you...! For Contacting Us.<br/><br/>'
     . 'Name:' . $name . '<br/>'
-    . 'Email:' . $email . '<br/>'
+    . 'Email:' . $emailForm . '<br/>'
     . 'Subject:' . $subject . '<br/>'
     . 'Message:' . $message . '<br/><br/>'
-    . 'This is a Contact Confirmation mail.'
+    . 'Ceci est une confirmation de l\'envoi de courriel du contact.'
     . '<br/>'
-    . 'We Will contact You as soon as possible .</div>';
+    . 'Nous allons vous contacter le plus tôt possible .</div>';
     $sendmessage = "<div style=\"background-color:#7E7E7E; color:white;\">" . $template . "</div>";
     // Message lines should not exceed 70 characters (PHP rule), so wrap it.
     $sendmessage = wordwrap($sendmessage, 70);

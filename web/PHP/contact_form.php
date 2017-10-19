@@ -1,5 +1,5 @@
 <?php // Fetching Values from URL.
-$name = $_POST['name'];
+$name = $_POST['nom'];
 $email = $_POST['email'];
 $message = $_POST['message'];
 $tel = $_POST['phone'];

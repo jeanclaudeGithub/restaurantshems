@@ -1,11 +1,11 @@
 $(document).ready(function(){
     $("#contactForm").submit(function(){
         var data={
-            emailVal : $("#email").val(),
-            nomVal : $("#nom").val(),
-            courrielVal : $("#courriel").val(),
-            messageVal : $("#message").val(),
-            tel : $("#phone").val()
+            email: $("#email").val(),
+            nom: $("#nom").val(),
+            courriel: $("#courriel").val(),
+            message: $("#message").val(),
+            tel: $("#phone").val()
         };
         $.ajax({
             type: "POST",

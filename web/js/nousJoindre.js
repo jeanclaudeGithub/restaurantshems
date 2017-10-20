@@ -11,8 +11,9 @@ $(document).ready(function(){
             type: "POST",
             url: "../PHP/contact_form.php",
             data: data,
-            success: function(){
-                $('.success').fadeIn(1000);
+            success: function(d){
+                
+                $('#sendEmail').fadeIn(1000)(d);
             }
         });
         

@@ -27,8 +27,8 @@ if (filter_var($emailFrom, FILTER_VALIDATE_EMAIL)) {
     $sendmessage = wordwrap($sendmessage, 70);
     // Send mail by PHP Mail Function.
     mail("n.oularabi@gmail.com", $subject, $sendmessage, $headers);
-    echo "Your Query has been received, We will contact you soon.";
+    return "Your Query has been received, We will contact you soon.";
 } else {
-    echo "<span>* invalid email *</span>";
+    return "<span>* invalid email *</span>";
 }
 ?>

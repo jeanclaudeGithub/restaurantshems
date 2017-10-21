@@ -13,7 +13,10 @@ $(document).ready(function(){
             data: data,
             success: function(d){
                 console.log(d);
-                $('#sendEmail').fadeIn(1000)(d);
+                $('#sendEmail').html(d);
+            },
+            Error: function(d){
+                console.log(d);
             }
         });
         

@@ -12,7 +12,7 @@ $(document).ready(function(){
             url: "../PHP/contact_form.php",
             data: data,
             success: function(d){
-                
+                console.log(d);
                 $('#sendEmail').fadeIn(1000)(d);
             }
         });

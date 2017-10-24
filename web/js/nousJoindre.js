@@ -1,5 +1,5 @@
 $(document).ready(function(){
-    $("#contactForm").submit(function(){
+    $("#contactForm").click(function(){
         var data={
             email: $("#email").val(),
             nom: $("#nom").val(),

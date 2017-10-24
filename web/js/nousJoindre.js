@@ -3,7 +3,6 @@ $(document).ready(function(){
         var data={
             email: $("#email").val(),
             nom: $("#nom").val(),
-            courriel: $("#courriel").val(),
             message: $("#message").val(),
             tel: $("#phone").val()
         };

@@ -7,6 +7,7 @@ $(document).ready(function(){
             message: $("#message").val(),
             tel: $("#phone").val()
         };
+        console.log(data);
         $.ajax({
             type: "POST",
             url: "../PHP/contact_form.php",
